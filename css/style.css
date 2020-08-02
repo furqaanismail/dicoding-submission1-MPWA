@@ -1,0 +1,259 @@
+/* semua */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+* {
+    box-sizing: border-box;
+}
+
+/* tag body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Mukta", sans-serif;
+}
+
+/* bagian header */
+header {
+    display: inline;
+}
+
+
+.jumbotron {
+    background-color: darkgrey;
+    padding: 60px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+}
+
+.jumbotron2 {
+    background-color: darkgrey;
+    padding: 60px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url(/img/bg2.jpg);
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    margin-top: 200px;
+}
+
+.jumbotron2 h1 {
+    margin-top: 200px;
+}
+
+/* konten main */
+#sejarah {
+    clear: both;
+    text-align: center;
+    height: 400px;
+    background-color: #ffffff;
+    color: #939393;
+}
+
+#sejarah h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-top: 80px;
+    color: #ece914;
+}
+
+
+#kegiatan1 {
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+
+#kegiatan1 img {
+    height: 300px;
+    float: left;
+    width: 530px;
+    height: 300px;
+    margin-right: 0px;
+}
+
+#kegiatan1 span {
+    width: 55%;
+    float: right;
+    padding-right: 20px;
+}
+
+#kegiatan1 h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#kegiatan1 p {
+    color: #939393;
+    text-align: justify;
+    width: 75%;
+}
+
+#kegiatan2 {
+    padding-left: 100px;
+}
+
+#kegiatan2 img {
+    height: 300px;
+    float: right;
+    width: 530px;
+    height: 300px;
+    margin-top: 100px;
+    padding-right: 200px;
+    padding-left: 0px;
+}
+
+#kegiatan2 span {
+    width: 55%;
+    float: left;
+}
+
+#kegiatan2 p {
+    color: #939393;
+    text-align: justify;
+    width: 75%;
+}
+
+#kegiatan2 h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#kontak h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#kontak form {
+    padding-left: 15%;
+}
+
+.input {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.pesan {
+    width: 80%;
+    height: 180px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    background-color: #0eca63;
+    color: white;
+}
+
+/* footer */
+footer {
+    clear: both;
+    background-color: #0eca63;
+    height: 60px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+}
+
+.btn-img {
+    background: #FF1744;
+    color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 12px 10px;
+    cursor: pointer;
+}
+
+.btn-img:hover {
+    opacity: 0.9;
+}
+
+/* responsive */
+@media screen and (max-width:680px) {}
+
+@media screen and (max-width:680px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #content,
+    #header,
+    footer {
+        padding: 0;
+        width: 100%;
+    }
+
+    #kegiatan1 {
+        margin-top: 50px;
+        padding-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    #kegiatan1 img {
+        height: 100px;
+        float: left;
+        width: 330px;
+        height: 300px;
+    }
+
+    #kegiatan1 span {
+        width: 85%;
+        float: right;
+        padding-right: 20px;
+    }
+
+    #kegiatan2 {
+        padding-left: 50px;
+    }
+
+    #kegiatan2 img {
+        height: 100px;
+        float: left;
+        width: 530px;
+        height: 300px;
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+
+    #kegiatan2 span {
+        width: 85%;
+        float: right;
+    }
+
+    #kegiatan2 p {
+        color: #939393;
+        text-align: justify;
+        width: 75%;
+    }
+}
+
+/* .card-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+} */
